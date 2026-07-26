@@ -110,7 +110,7 @@ AI learns from your browsing history, social media interactions, and other activ
 4. **Receive Feedback:** Evaluate user responses and feedback on the output.
 5. **Update the Model:** Refine the model based on the feedback received.
 
-> 🖼️ *[Diagram/Flowchart Visualizing the ML Steps: Collect Data → Identify Patterns → Generate Output → Receive Feedback → Update Model]*
+<img width="990" height="107" alt="Screenshot 2026-07-26 155109" src="https://github.com/user-attachments/assets/4a776cc9-1f6a-4b5d-af94-4cd4c544094e" />
 
 ---
 
