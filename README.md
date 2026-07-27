@@ -15,3 +15,4 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 
 ### **(27-07-2026)**
 * First meeting scheduled at 9 30 pm today
+* Members aligned to idea now we are looking to complete the courses for the entire team by tomorrow
