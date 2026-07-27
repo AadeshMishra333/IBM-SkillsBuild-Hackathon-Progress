@@ -12,3 +12,6 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 #### **To Do next:** Have a meeting, complete the recorded live session 
 
 *Let's do this! Jai Shree Krishna.*
+
+### **(27-07-2026)**
+* First meeting scheduled at 9 30 pm today
