@@ -16,3 +16,18 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 ### **(27-07-2026)**
 * First meeting scheduled at 9 30 pm today
 * Members aligned to idea now we are looking to complete the courses for the entire team by tomorrow
+
+### **(28-07-2026)**
+* **Second meeting scheduled**
+
+#### **Agendas:**
+1. Clarify the hackathon, share individual understandings/inputs, and align on a common direction.
+2. Finalize the **Track** and **Problem Statement** to work on.
+3. Discuss individual strengths and technical skills to build a solid team toolkit. 😎
+
+> **Expected Takeaways:**  
+> A unified vision and a single problem statement to focus on moving forward.
+
+#### **Preparation for Meeting:**
+* Review the problem statements and tracks to build a clear pitch for the meeting.
+* Select a preferred track and problem statement, along with supporting points for why the team should choose it.
