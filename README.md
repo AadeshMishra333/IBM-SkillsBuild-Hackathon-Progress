@@ -24,6 +24,7 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 1. Clarify the hackathon, share individual understandings/inputs, and align on a common direction.
 2. Finalize the **Track** and **Problem Statement** to work on.
 3. Discuss individual strengths and technical skills to build a solid team toolkit. 😎
+4. Skim the website and find all the insights (15 mins after the idea discussion)
 
 > **Expected Takeaways:**  
 > A unified vision and a single problem statement to focus on moving forward.
