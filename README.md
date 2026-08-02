@@ -39,7 +39,7 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 #### **Second meeting outcomes and next meeting agendas**
 📝 *MINUTES OF MEETING* 📝
 
-> ---
+---
 > 
 > 📌 *Topics Covered:*
 > • Which topic to choose
@@ -70,7 +70,17 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 
 📝 *Second meeting example output* 📝
 
-> ---
+---
 > Ex: I have thought of the AI for government topic because __ I think we would need to deploy an APP/WEBSITE/... for maximum outreach and business aspect.
 > For this i think we would need to know the concepts of ___(AI/ML/DL/...) 
 > This is example of a person's input for the coming meeting
+---
+
+* **After the first offline meeting:** Aligned to a topic "Government Aid Citizen Educating Platform By organizing existing information"
+* Next upcoming meeting **4th August 2026**
+> Agendas:
+> 1. Find more gaps in the existing apps and work on some feature ideas
+> 2. Look to gamify the website certain streaks can retain our viewers
+> 3. Think to add a thread model for discussions like reddit
+> 4. Think ways to implement a chatbot
+* [ ] Summarize the idea we have thought and give it to AI to finalize and give verdict on our current problem statement, look for features and gaps as it guides and then proceed with idea filtering on WHAT then the HOW parts
