@@ -67,3 +67,10 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 > ---
 > 
 > 🔥 *THIS IS PROGRESS GUYS, LET'S DO THIS!!* 💪🚀
+
+📝 *Second meeting example output* 📝
+
+> ---
+> Ex: I have thought of the AI for government topic because __ I think we would need to deploy an APP/WEBSITE/... for maximum outreach and business aspect.
+> For this i think we would need to know the concepts of ___(AI/ML/DL/...) 
+> This is example of a person's input for the coming meeting
