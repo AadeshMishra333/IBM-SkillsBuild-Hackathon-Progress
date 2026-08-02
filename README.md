@@ -33,3 +33,37 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 * Review the problem statements and tracks to build a clear pitch for the meeting.
 * Select a preferred track and problem statement, along with supporting points for why the team should choose it.
 * See the previous hackathon winning teams what their project have in common?
+
+### **(01-08-2026)**
+
+#### **Second meeting outcomes and next meeting agendas**
+📝 *MINUTES OF MEETING* 📝
+
+> ---
+> 
+> 📌 *Topics Covered:*
+> • Which topic to choose
+> • What hackathon-winning teams have in common
+> • Team strengths & weaknesses
+> 
+> 💡 *Key Decision / Result:*
+> • Currently inclined towards *AI in Climate & Government* 🌍🤖
+> 
+> ---
+> 
+> 🚀 *Next Steps:*
+> 
+> ⏰ *Next Short Meeting:* Today at *5:30 PM*
+> 
+> *Action Items before the meeting:*
+> 1️⃣ *Brainstorm Topics:* Think more on what we discussed so we can finalize our problem statement.
+> 2️⃣ *Deployables & WOW Factor:* Think about our actual deliverables and what will give us that crucial *WOW FACTOR* ✨
+> 3️⃣ *Requirements List:* Keep noting down everything we'll need (tech, tools, data) to pull this off.
+> 
+> *Agenda for 5:30 PM:*
+> • Quick overview discussion (_kya kya lagega hume isme_)
+> • Flexible division of roles based on deliverables and the finalized problem statement
+> 
+> ---
+> 
+> 🔥 *THIS IS PROGRESS GUYS, LET'S DO THIS!!* 💪🚀
