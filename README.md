@@ -32,3 +32,4 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 #### **Preparation for Meeting:**
 * Review the problem statements and tracks to build a clear pitch for the meeting.
 * Select a preferred track and problem statement, along with supporting points for why the team should choose it.
+* See the previous hackathon winning teams what their project have in common?
