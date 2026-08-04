@@ -83,4 +83,9 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 > 2. Look to gamify the website certain streaks can retain our viewers
 > 3. Think to add a thread model for discussions like reddit
 > 4. Think ways to implement a chatbot
-* [ ] Summarize the idea we have thought and give it to AI to finalize and give verdict on our current problem statement, look for features and gaps as it guides and then proceed with idea filtering on WHAT then the HOW parts
+* [x] Summarize the idea we have thought and give it to AI to finalize and give verdict on our current problem statement, look for features and gaps as it guides and then proceed with idea filtering on WHAT then the HOW parts
+
+### **(04-08-2026)**
+
+* [Uploaded Prompt Building](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/IBM%20Prompt%20Building.docx)
+* **4th meeting coming up at 10pm today, mentor assigned to us**
