@@ -87,5 +87,5 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 
 ### **(04-08-2026)**
 
-* [Uploaded Prompt Building](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/IBM%20Prompt%20Building.docx)
+* [Uploaded Prompt Building](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/IBM%20Prompt%20Building.pdf)
 * **4th meeting coming up at 10pm today, mentor assigned to us**
