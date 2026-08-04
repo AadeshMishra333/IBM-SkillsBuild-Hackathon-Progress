@@ -89,3 +89,33 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 
 * [Uploaded Prompt Building](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/IBM%20Prompt%20Building.pdf)
 * **4th meeting coming up at 10pm today, mentor assigned to us**
+
+---
+
+### **Third Meeting Milestones & Discussion** 📝
+
+1. **Problem Statement:** Prompt elaborated and refined.
+2. **AI Output:** Reviewed and discussed initial chat outputs.
+3. **Major Discussions & Refinements:**
+   * **Gamification Pivot:** Removed gamification and streaks. Replaced with a **Complaint & Impact System** to actively retain users as they track their complaint resolution status and receive appreciation for creating societal impact. *(Note: Needs moderation)*.
+   * **Target Audience:** Identified 3 disjoint age groups and mapped out their respective requirements.
+
+4. **Features Finalized:**
+   * 🤖 **ML-Based Eligibility Classifier**
+   * 💬 **AI Assistant**
+   * 📢 **Complaint, Feedback & Outdated Information Reporting**
+   * 📊 **Basic Analytics**
+   * 📝 **Value-Add Features:** Summarization, interactive guidance, etc.
+
+5. **Key Doubts & Clarifications:**
+   * Is IBM Bob mandatory?
+   * App vs. Web Platform strategy?
+   * Finalizing team task division.
+
+6. **Temporary Task Division:**
+   * **Platform / Full-Stack:** Rishab, Aadhar
+   * **AI / ML (Classifier & Chatbot):** Aadhar, Aadesh, Hardik
+   * **Complaint Moderation System:** Aadesh, Anshul, Hardik
+   * **DBMS & Backend:** Aadesh, Rishab
+
+---
