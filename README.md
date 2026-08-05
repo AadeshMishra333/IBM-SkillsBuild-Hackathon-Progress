@@ -119,3 +119,16 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
    * **DBMS & Backend:** Aadesh, Rishab
 
 ---
+
+### **(05-08-2026)**
+
+#### **Progress Update & First Mentor Session Learnings** 💡
+
+* **Attended the first mentor session today! OUR PROJECT IS UNIQUE AND NOVEL**
+
+> **Key Takeaways & Learnings:** (Priya Kishore Ma'am mentor)
+> 1. **Target Audience Scope:** Focus initially on the **college and student level** before scaling.
+> 2. **Multi-Layered Moderation:** Implement layers of moderation for complaints, using **AI as the base layer**.
+> 3. **Community Validation:** Introduce **upvotes** to support complaints and dynamically boost their relevance/priority.
+>
+> **Suggestion:** Conduct a survey on how relevant would this be in the real world (college student for now)
