@@ -132,3 +132,14 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 > 3. **Community Validation:** Introduce **upvotes** to support complaints and dynamically boost their relevance/priority.
 >
 > **Suggestion:** Conduct a survey on how relevant would this be in the real world (college student for now)
+
+### **(10-08-2026)**
+
+* **Pre coding final meeting today to finalize a collaborative roadmap:**
+> Prerequisite:
+> Discuss with AI agent how to implement this...i'll be sending a master builder prompt with clarity about the work we intend to do, and also since roles of each person is almost finalized i expect each to
+> 1. Paste the master prompt to get a overview of how to implement our project
+> 2. Give your role and part and ask for it to guide in that aspect only
+> THE MOST IMPORTANT: Ask the AI for collaborative answer, we'll merge each of the prompts and work piece by piece
+- [ ] So make a master builder prompt clarifying the previous prompt building
+- [ ] Make a guided road map for your role
