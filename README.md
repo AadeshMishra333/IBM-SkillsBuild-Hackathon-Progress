@@ -145,3 +145,6 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 - [ ] Make a guided road map for your role
 * made a task distribution segement [Task Distribution](https://docs.google.com/document/d/1PoypKGIPS5hDLcSpx2YiPffbBG8SzcJs9JVeSp5TiMQ/edit?tab=t.0)
 **ALL SET FOR THE MEETING AT 10!!**
+* Meeting Done, **Task Given:**
+> 1. Fill the Role Distribution
+> 2. Give master prompt into AI agent along with the description(very brief) of your roles and ask it to generate roadmap
