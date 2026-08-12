@@ -148,3 +148,7 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 * Meeting Done, **Task Given:**
 > 1. Fill the Role Distribution
 > 2. Give master prompt into AI agent along with the description(very brief) of your roles and ask it to generate roadmap
+
+### **(12-08-2026)**
+- Made the first [draft of roadmap](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/Aadesh%20Roadmap%20draft%201.pdf) and scheduled the meeting for 13th to discuss this and then make the actual step by step roadmap guide
+- Let's Start Real Word Jai Shree Krishna🙏
