@@ -155,7 +155,7 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 
 ### **(22-08-2026)**
 - Finalized the roadmap and started working with Hardik on the Backend and Schema Notation
-- Set up Github organization, Created the Repo, and set up the overall backend env:ironment
+- Set up Github [organization](https://github.com/BroCoders47), Created the [Repo](https://github.com/BroCoders47/citizen-governance-platform), and set up the overall backend environment
   - Tools: Python, FastAPI, Docker, VS code (main ones)
 - Completed the Phase 0 of the roadmap - Environment Initialization
 - Almost done with the Phase 1 of the roadmap - Contract Freeze "_Refers to the process of defining the functioning of the application and integrating Frontend and other stack with Backend_"
