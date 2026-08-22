@@ -1,0 +1,50 @@
+Software Stack Vision:
+
+Here is a breakdown of your software stack, the role of each component, and what you achieve when everything is fully integrated for your MVP backend and complaint intelligence platform.
+
+---
+
+### Part 1: Role of Each Component in Your Domain
+
+#### **Backend & API Foundation**
+
+* **Python 3.12:** The modern core programming language powering your domain, offering excellent performance, strong typing support, and rich ecosystem tools.
+* **FastAPI:** A high-performance web framework for building APIs. It automatically generates interactive documentation (`OpenAPI/Swagger`) and validates requests seamlessly.
+* **Pydantic v2:** The data validation engine behind FastAPI. It guarantees that incoming request payloads and outgoing responses conform strictly to predefined data models.
+* **SQLAlchemy 2:** The Object-Relational Mapper (ORM) that lets you interact with your PostgreSQL database using Python classes and asynchronous queries.
+* **Alembic:** The database migration tool that tracks schema changes over time, ensuring database updates are version-controlled and reproducible across environments.
+
+#### **Database**
+
+* **PostgreSQL 16:** A robust, enterprise-grade relational database management system used to securely store structured data (users, complaints, audit histories, scheme rules).
+
+#### **AI Services & Storage**
+
+* **watsonx.ai or Adapter:** An integration layer for AI capabilities (like text screening, PII flagging, and severity estimation), wrapped in a fallback-friendly adapter so the system stays up even if the AI service drops.
+* **Local / S3-compatible Abstraction:** A storage abstraction layer used exclusively for handling synthetic evidence and file uploads safely during the MVP phase.
+
+#### **Testing & Contracts**
+
+* **Pytest:** The primary testing framework used for writing unit and integration tests across your endpoints, authentication flow, and workflows.
+* **FastAPI TestClient:** A utility built on top of `pytest` that lets you test your FastAPI routes locally without spinning up a live network server.
+* **OpenAPI:** The standardized specification format automatically outputted by FastAPI to document endpoints clearly for your frontend and team members.
+
+#### **Dev Infrastructure & Quality**
+
+* **Git + GitHub:** Version control and collaboration platform for managing your codebase and tracking issues.
+* **Docker & Docker Compose:** Containerization tools that bundle your Python backend and PostgreSQL database into isolated containers so they run identically on any teammate's machine.
+* **Bruno / Postman:** API clients used by you and your teammates to manually test endpoints, send JSON payloads, and debug responses.
+* **Ruff & Black:** Code linters and formatters that automatically enforce clean, consistent Python code style across your module.
+* **.env & Pydantic Settings:** Secure environment variable management ensuring configuration keys (like database credentials or service tokens) never get hardcoded into source code.
+
+---
+
+### Part 2: What You Get When It All Integrates
+
+When you bring all these pieces together, you build a **stable, production-ready integration backbone** for your platform. Specifically, you get:
+
+1. **A Contract-First Ecosystem:** Because FastAPI and Pydantic enforce strict schemas, your frontend teammate (Aadhar) and scheme teammate (Hardik) can depend on predictable request/response formats without guessing.
+2. **A Bulletproof Complaint Lifecycle:** You deliver a secure, multi-step complaint workflow (Submission $\rightarrow$ AI Screening $\rightarrow$ Human Moderation $\rightarrow$ Resolution/Appeal) where unauthorized state changes or accidental data leaks are blocked by design.
+3. **Graceful Degradation (AI-Resilient Architecture):** If the AI service (`watsonx.ai`) goes down, your system doesn't crash. It falls back to rule-based routing, keeping manual submissions, scheme matching, and support ticketing operational.
+4. **Full Auditability:** Every status change, moderator override, and administrative action is safely recorded in PostgreSQL with rigorous tracking, fulfilling compliance and accountability requirements.
+5. **Seamless Developer Experience:** Using Docker Compose, Ruff, and Pytest means anyone on your team can spin up the entire database and backend stack locally with a single command, run automated tests, and debug instantly via Bruno or Postman.

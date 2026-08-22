@@ -1,0 +1,41 @@
+the complaint states
+
+draft
+  ↓
+submitted
+  ↓
+under_ai_screening
+  │
+  ├──────────────→ needs_clarification
+  │                         │
+  │                         └────→ under_human_moderation
+  │
+  └──────────────────────────────→ under_human_moderation
+                                     │
+                    ┌────────────────┼───────────────┐
+                    ▼                ▼               ▼
+                 accepted    marked_duplicate    rejected
+                    │                                │
+                    │                                ▼
+                    │                            appealed
+                    │                                │
+                    │                                ▼
+                    │                     under_human_moderation
+                    ▼
+          forwarded_to_authority
+                    │
+                    ▼
+          under_authority_review
+                    │
+                    ▼
+             action_reported
+                    │
+                    ▼
+      awaiting_community_confirmation
+                    │
+             ┌──────┴──────┐
+             ▼             ▼
+          resolved   under_authority_review
+             │
+             ▼
+           closed

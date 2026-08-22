@@ -1,0 +1,116 @@
+# 1. Clear any broken remote or staging configuration
+git remote remove origin 2>$null
+
+# 2. Add your GitHub organization repository URL (REPLACE WITH YOUR ACTUAL URL)
+git remote add origin https://github.com/BroCoders47/citizen-governance-platform.git
+
+# 3. Fetch the latest file structure and history from GitHub
+git fetch origin
+
+# 4. Force your local main branch to match the GitHub main branch (overwriting the empty local setup)
+git checkout -B main origin/main
+
+# 5. Confirm connection and status
+git status
+
+
+
+Yes, **one single repository (a monorepo)** with multiple branches and a clean folder structure is the absolute best way to manage this project.
+
+Having everything (`backend`, `frontend`, `contracts`, `docs`) in one place prevents sync issues, keeps your API contracts transparent to your teammates, and makes local setup via Docker a breeze.
+
+Here is how team GitHub works for this setup and how to configure it step-by-step.
+
+---
+
+### Part 1: How Team GitHub Works for This Structure
+
+Instead of everyone working on the `main` branch, you use a **Feature Branch Workflow** protected by GitHub rules:
+
+1. **`main` Branch (Production / Stable Demo):**
+* This is always the clean, working version of your platform.
+* No one pushes directly to `main`.
+
+
+2. **Feature/Domain Branches:**
+* Teammates create branches off `main` for their specific tasks (e.g., `feature/backend-otp-auth`, `feature/scheme-json-parser`, `feature/frontend-complaint-ui`).
+
+
+3. **Pull Requests (PRs) & Code Reviews:**
+* When a teammate finishes a feature, they open a Pull Request into `main`.
+* As the Backend Lead, you review code touching APIs, models, or database schemas before merging.
+
+
+
+---
+
+### Part 2: Step-by-Step Setup Guide
+
+#### Step 1: Initialize the Monorepo (Done by Repo Owner)
+
+Create the repository inside your GitHub Organization (e.g., `citizen-governance-platform`), clone it locally, and match the folder layout you outlined:
+
+```bash
+git clone https://github.com/your-org-name/citizen-governance-platform.git
+cd citizen-governance-platform
+
+# Create the folder skeleton
+mkdir -p backend frontend contracts docs demo
+touch docker-compose.yml .gitignore .env.example README.md
+
+```
+
+#### Step 2: Establish the Contract & Base Configuration First
+
+Before writing domain-specific logic, commit your baseline setup to `main`:
+
+* **`.env.example`**: List all required environment variables (Database URL, Watsonx keys, etc.) so your teammates know what to put in their local `.env`.
+* **`docker-compose.yml`**: Set up the PostgreSQL service so everyone runs the exact same database version locally.
+* **`contracts/`**: Place early API specifications or JSON schemas here so both the frontend and backend developers agree on request/response shapes.
+
+#### Step 3: Protect the `main` Branch on GitHub
+
+To prevent anyone from accidentally breaking the shared code:
+
+1. Go to your GitHub Repository $\rightarrow$ **Settings** $\rightarrow$ **Branches**.
+2. Click **Add branch protection rule**.
+3. Under *Branch name pattern*, type `main`.
+4. Check **Require a pull request before merging**.
+5. Check **Require status checks to pass before merging** (this ensures your Pytest suite runs successfully via GitHub Actions before code gets merged).
+6. Click **Create**.
+
+#### Step 4: Daily Workflow for You and Your Teammates
+
+When you or your teammates (like Aadhar or Hardik) want to add code, follow this sequence:
+
+1. **Pull the latest changes:**
+```bash
+git checkout main
+git pull origin main
+
+```
+
+
+2. **Create a local feature branch:**
+```bash
+git checkout -b feature/your-feature-name
+
+```
+
+
+3. **Write code and commit regularly:**
+```bash
+git add .
+git commit -m "feat(backend): add complaint submission and validation schema"
+
+```
+
+
+4. **Push to GitHub and open a Pull Request:**
+```bash
+git push origin feature/your-feature-name
+
+```
+
+
+* Go to GitHub, click **Compare & pull request**, assign a reviewer, and merge once approved.

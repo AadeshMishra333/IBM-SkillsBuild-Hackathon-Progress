@@ -1,0 +1,51 @@
+vision with our backend
+
+backend/
+│
+├── app/
+│   │
+│   ├── main.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   ├── exceptions.py
+│   │   └── logging.py
+│   │
+│   ├── db/
+│   │   ├── session.py
+│   │   ├── base.py
+│   │   └── models/
+│   │
+│   ├── api/
+│   │   └── v1/
+│   │       ├── auth.py
+│   │       ├── users.py
+│   │       ├── schemes.py
+│   │       ├── complaints.py
+│   │       ├── moderation.py
+│   │       ├── authority.py
+│   │       └── support.py
+│   │
+│   ├── schemas/
+│   │
+│   ├── services/
+│   │
+│   ├── repositories/
+│   │
+│   └── integrations/
+│       └── ai/
+│
+├── alembic/
+│
+├── tests/
+│   ├── unit/
+│   └── integration/
+│
+├── scripts/
+│   └── seed.py
+│
+├── pyproject.toml
+├── alembic.ini
+├── Dockerfile
+└── .env.example

@@ -1,0 +1,108 @@
+Aadesh's Build Up Roadmap
+PHASE 0   Engineering foundation (Done: “Every team member can clone the repository and launch the same backend foundation and database.”)
+   ↓
+PHASE 1   Product contracts + architecture (In software development and system architecture (such as the project planning shown in your shared workspace), Stage One: Contract Freeze is an alignment milestone that happens before any database tables are created or actual code is written.) this phase connects the backend and frontend
+   ↓
+PHASE 2   Database foundation
+   ↓
+PHASE 3   Authentication + RBAC
+   ↓
+PHASE 4   Core backend APIs
+   ↓
+PHASE 5   Scheme-module integration
+   ↓
+PHASE 6   Complaint lifecycle
+   ↓
+PHASE 7   AI moderation
+   ↓
+PHASE 8   Priority + authority + community workflow
+   ↓
+PHASE 9   Source-grounded assistant integration
+   ↓
+PHASE 10  Full-stack integration
+   ↓
+PHASE 11  Security + Responsible AI + testing
+   ↓
+PHASE 12  Deployment + demo freeze
+
+backend/
+│
+├── app/
+│   │
+│   ├── main.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   ├── exceptions.py
+│   │   └── logging.py
+│   │
+│   ├── db/
+│   │   ├── session.py
+│   │   ├── base.py
+│   │   └── models/
+│   │
+│   ├── api/
+│   │   └── v1/
+│   │       ├── auth.py
+│   │       ├── users.py
+│   │       ├── schemes.py
+│   │       ├── complaints.py
+│   │       ├── moderation.py
+│   │       ├── authority.py
+│   │       └── support.py
+│   │
+│   ├── schemas/
+│   │
+│   ├── services/
+│   │
+│   ├── repositories/
+│   │
+│   └── integrations/
+│       └── ai/
+│
+├── alembic/
+│
+├── tests/
+│   ├── unit/
+│   └── integration/
+│
+├── scripts/
+│   └── seed.py
+│
+├── pyproject.toml
+├── alembic.ini
+├── Dockerfile
+└── .env.example
+
+Expected architectural result
+
+HTTP
+ ↓
+FastAPI Router
+ ↓
+Pydantic validation
+ ↓
+Service
+ ↓
+Repository
+ ↓
+SQLAlchemy
+ ↓
+PostgreSQL
+
+For AI
+
+Complaint
+ ↓
+Moderation Service
+ ↓
+AI Adapter
+ ↓
+watsonx / alternate model
+ ↓
+Structured recommendation
+ ↓
+Human Moderator
+ ↓
+Final decision
