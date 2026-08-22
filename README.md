@@ -142,7 +142,7 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 > 2. Give your role and part and ask for it to guide in that aspect only
 > THE MOST IMPORTANT: Ask the AI for collaborative answer, we'll merge each of the prompts and work piece by piece
 - [X] So make a master builder prompt clarifying the previous prompt building (updated [Updated Prompt 10 August](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/IBM%20Prompt%20Building%20Update%20(1).pdf)
-- [ ] Make a guided road map for your role
+- [X] Make a guided road map for your role
 * made a task distribution segement [Task Distribution](https://docs.google.com/document/d/1PoypKGIPS5hDLcSpx2YiPffbBG8SzcJs9JVeSp5TiMQ/edit?tab=t.0)
 **ALL SET FOR THE MEETING AT 10!!**
 * Meeting Done, **Task Given:**
@@ -152,3 +152,11 @@ This is a daily progress update directory for the upcoming IBM SkillsBuild Hacka
 ### **(12-08-2026)**
 - Made the first [draft of roadmap](https://github.com/AadeshMishra333/IBM-SkillsBuild-Hackathon-Progress/blob/main/Aadesh%20Roadmap%20draft%201.pdf) and scheduled the meeting for 13th to discuss this and then make the actual step by step roadmap guide
 - Let's Start Real Word Jai Shree Krishna🙏
+
+### **(22-08-2026)**
+- Finalized the roadmap and started working with Hardik on the Backend and Schema Notation
+- Set up Github organization, Created the Repo, and set up the overall backend env:ironment
+  - Tools: Python, FastAPI, Docker, VS code (main ones)
+- Completed the Phase 0 of the roadmap - Environment Initialization
+- Almost done with the Phase 1 of the roadmap - Contract Freeze "_Refers to the process of defining the functioning of the application and integrating Frontend and other stack with Backend_"
+  - [ ] Hardik needs to give sample schema, the Json structure is finalized and given to him
